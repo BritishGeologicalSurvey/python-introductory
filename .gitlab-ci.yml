@@ -1,0 +1,19 @@
+image: ruby:2.3
+
+variables:
+  JEKYLL_ENV: production
+
+pages:
+  tags:
+  - docker
+  script:
+  - gem install jekyll
+  - make site
+  - mkdir public
+  - mv _site public
+  artifacts:
+    paths:
+    - public
+  only:
+  - gh-pages
+
