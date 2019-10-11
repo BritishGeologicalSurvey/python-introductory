@@ -2,6 +2,14 @@
 layout: lesson
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
+venue: "BGS Software Carpentry"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "BGS Edinburgh, FitzRoy Room"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "gb" 
+startdate: 2019-10-16
+enddate: 2019-10-17
+instructor: ["Chris Williams"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Andy Hulbert", "Ekbal Hussain"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["chrwil@bgs.ac.uk"]
 ---
 
 This lesson is an introduction to programming in Python for people with little or no previous 
